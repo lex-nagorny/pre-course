@@ -1,8 +1,9 @@
-const giveMeRightNumbers = (value1, value2, maximum) => {
-    if (value1 === value2 || value1 <= maximum) {
+const giveMeRightCondition = (value1, value2, maximum) => {
+    if (value1 === value2 && value1 <=  maximum) {
         console.log('Success!');
     } else {
         console.log('Something wrong!');
     }
 }
-giveMeRightNumbers(100, 30, 20)
+
+giveMeRightCondition(100, 100, 20)
