@@ -8,3 +8,4 @@ function createColorString() {
 }
 
 console.log(createColorString());
+
